@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        width: 800px;
+        margin: auto;
+    }
+    .container{
+ display:flex;
+ margin-top: 30px;
+ 
+ 
+    }
+    .menubar{
+        width: 15%;
+        margin-top : 15px;
+    }
+  
+    ul{
+        margin:0;
+        padding:0;
+        list-style-type: none;
+        border: 10px solid green;
+    }
+    li {
+        border: 2px solid black;
+    
+        text-align: center;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+  
+</style>
+<body>
+    <div class="container">
+        <div class="menubar">
+            <div class="menuItems">
+                <ul>
+                    <li><a href="home.html" target ="board">Home</a></li>
+                    <li><a href ="blog.html" target = "board">Blog</a></li>
+                    <li><a href = "service.html"  target="board">Service</a></li>
+                    <li><a href= "contact.html" target="board">Contact</a></li>
+                    <li><a href = "about.html" target = "board">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <iframe  src= "home.html" name = "board"   width="800" height ="4000px" style= "border:none;  margin-top:20px ;">
+        </iframe>
+    </div>
+   
+</body>
+</html>
